@@ -1,0 +1,143 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: "gilroy";
+}
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+#main #left{
+    width: 48%;
+    height: 100%;
+}
+#main #right{
+    width: 52%;
+    height: 100%;
+    opacity: .9;
+    /* background-color: red; */
+}
+#limg{
+    width: 100%;
+    height: 85%;
+    opacity: .7;
+    background-color: rgb(88, 87, 87);
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://i.pinimg.com/564x/bf/4e/87/bf4e8714dbb293f42a022516403bfa92.jpg");
+}
+#lbtm{
+    width: 400px;
+    /* height: 300px; */
+    /* background-color: burlywood; */
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+#lbtm h5{
+    color: #fff;
+    letter-spacing: 3px;
+    font-weight: 400;
+    margin-bottom: 28px;
+    z-index: 9;
+
+}
+#lbtm h1{
+    color: #fff;
+    line-height: 52px;
+    font-size: 45px;
+    font-weight: 700;
+    z-index: 9;
+}
+#lbtm p{
+    color: #fff;
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 20px;
+    z-index: 9;
+    line-height: 15px;
+}
+#right #nav{
+    position: absolute;
+    right: 0%;
+    width: 370px;
+    height: 50px;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+}
+#nav a{
+    margin-right: 35px;
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+#rbtm{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    bottom: 10%;
+    right: 2%;
+    background-color: rgb(183,138,76);
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+}
+#rbtm #part1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: right;
+    margin-right: 20px;
+}
+#part1 h6{
+    font-size: 10px;
+    font-weight: 300;
+    text-align: right;
+}
+#part1 h5{
+    font-size: 11px;
+    font-weight: 600;
+    text-align: right;
+}
+#rbtm #part2{
+    margin-bottom: 25px; 
+    text-align: right;
+    margin-right: 20px;
+}
+#rbtm a{
+    color: #fff;
+    font-size: 12px;
+    text-align: right;
+    margin-right: 20px;
+}
+#rimg{
+    /* background-color: bisque; */
+    width: 100%;   
+    height: 92%;
+    background-position: right;
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1605906942945-b632b3f3d618?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80");
+}
+#arrow{
+    position: absolute;
+    left: 5%;
+    bottom: 6%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* background-color: black; */
+    border: 1px solid black;
+    padding: 10px 10px;
+}
+#arrow i{
+    color: black;
+}
